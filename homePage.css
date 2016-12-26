@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置*/
+*{
+	margin:0;
+	padding:0;
+	font:inherit;
+	
+}
+ol, ul {list-style-type:none;}
+a:link, a:visited { color:#000; text-decoration:none;}
+/*************************************************************************
+      常用样式
+*************************************************************************/
+body {
+	padding-bottom:70px;
+}
+/*外围容器*/
+.container {
+	clear:both;
+	width:1000px;
+	margin:0 auto;
+}
+
+/*通用区域样式*/
+.of {
+	overflow:hidden;
+}
+.mf20 {margin-left:20px;}
+.mfr7 {margin-left:7px; margin-right:7px;}
+.fl {float:left;}
+body {background-color:#e8e8e8;}
+a:focus,
+a:hover,
+a:active {
+	color:#FFF;
+	background-color:#F00;
+}
+.cl {clear:both;}
+/*************************************************************************
+      基准样式
+*************************************************************************/
+/*top部分*/
+.top {
+	height:25px;
+	width:100%;
+	background:url(../53bf7a220001620500000000/images/top_bg.jpg) repeat-x;
+}
+.top ul {
+	width:1000px;
+	margin:0 auto;
+}
+.top li {
+	float:right;
+	line-height:25px;
+	margin:0 20px;
+	list-style-image:url(../53bf7a220001620500000000/images/li_bg.gif);/*列表前加入图标*/
+	
+}
+.top a:link, 
+.top a:visited { 
+	color:#CCC;
+	font-size:12px;
+}
+.top a:focus,
+.top a:hover,
+.top a:active {
+	display:block;
+}
+
+/***********header部分***********/	
+/*logo区域*/
+.logo {
+	height:80px;
+	background-color:#FFF;
+}
+.logo_pic {
+	float:left;
+	margin-right:480px;
+}
+.tel {
+	line-height:80px;
+	margin-top:26px;
+}
+.logo p {
+	float:right;
+	margin-right:10px;
+	font-size:14px;
+	height:31px;
+	line-height:80px;
+}
+.logo span {
+	font-size:24px;
+	color:#900;
+	line-height:31px;
+}
+/*nav区域*/
+.nav {	
+	height:40px;
+	background-color:#666;	
+}
+.nav li {
+	float:left;	
+}
+.nav input {
+	height:28px;
+	width:220px;
+	margin:6px 0 0 50px;
+	background:url(../53bf7a220001620500000000/images/search.jpg) no-repeat right center;/**********图片在搜索栏中右侧出现************/
+	background-color:#FFF;
+}	
+.nav a:link,
+.nav a:visited {
+	display:block;/*使得鼠标经过时和原始的样式大小一样*/
+	padding:10px 20px;/*使得鼠标经过时和原始的样式大小一样*/
+}
+.nav a:focus,
+.nav a:hover,
+.nav a:active{
+	display:block;
+}
+/*幻灯片区域*/
+.picBox {
+	height:300px;
+}
+/***********主体内容区域***********/
+main {
+	background-color:#FFF;
+	border:1px solid #e8e8e8;
+}
+main h2 {
+	float:left;
+	margin-left:20px;
+	line-height:40px;
+	
+}
+main .more {
+	float:right;
+	margin-right:10px;
+	line-height:40px;
+	color:#999;
+}
+main .title{
+	height:40px;
+	border:1px solid #e8e8e8;
+	}
+main h3 {
+	font-size:12px;
+	font-weight:bold;
+	color:#900;
+	float:left;
+	margin-left:5px;
+}
+main p {
+	float:left;
+	font-size:12px;
+	margin-left:5px;
+}
+/*新闻中心*/
+.news {
+	width:350px;
+	border:1px solid #e8e8e8;	
+}
+
+.news .headline {
+	clear:both;
+	margin:10px 0 0 122px;
+	line-height:25px;
+}
+.news .headline img {
+	width:120px;
+	height:100px;
+	float:left;
+	margin-left:-121px;
+}
+.headline a {
+	color:#F00;
+}
+.headline a:focus,
+.headline a:hover,
+.headline a:active {
+	color:#FFF;	
+}
+.content {
+	clear:both;
+	font-size:12px;
+}
+.content li {
+	border-bottom:1px dotted #999;
+	line-height:25px;
+	list-style-image:url(../53bf7a220001620500000000/images/list.jpg);
+	margin-left:20px;	
+}
+.content span{
+	float:right;
+	color:#999;
+}
+
+
+/*课程中心*/
+.course {	
+	width:410px;
+	border:1px solid #e8e8e8;
+}
+.course .headline {
+	clear:both;
+	margin:10px 0 0 162px;
+	line-height:25px;
+}
+.course .headline img {
+	width:160px;
+	height:120px;
+	float:left;
+	margin-left:-161px;
+}
+.course_type {
+	clear:both;
+	font-size:12px;
+	width:400px;
+	margin:0 auto;
+}
+.course_type ul { 
+	margin-left:20px;
+	list-style-image:url(../53bf7a220001620500000000/images/content_bg.gif) repeat-x;/**背景图未显示***/
+}
+.course_type li {
+	float:left;
+	padding:20px 10px;
+}
+/*媒体聚焦*/
+.vedio {
+	float:right;
+	width:220px;
+}
+embed {
+	width:218px;
+	height:150px;
+	margin:0 auto;
+}
+
+/***********footer部分***********/	
+.copyright {
+	width:100%;
+	background-image:url(../53bf7a220001620500000000/images/line.png) repeat-x;
+	height:140px;	
+}
+.copyright ul{
+	margin-top:20px;	
+}
+.copyright li {
+	float:left;
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+	list-style-image:url(../53bf7a220001620500000000/images/type_bg.png) right;
+}
+.copyright ul li ul{
+	margin-top:10px;
+}
+.copyright ul li ul li {
+	font-size:12px;
+}

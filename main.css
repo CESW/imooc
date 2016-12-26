@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置*/
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font:inherit;
+	vertical-align:baseline;
+}
+ol, ul {list-style-type:none;}	
+/******************************************************************
+    常用样式集合
+******************************************************************/
+
+/* 清除浮动影响 */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow:hidden;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1; /* HACK_IE_LTE_7: IE7及更老版本的IE不支持:after伪元素 */
+}
+
+/*外围容器*/
+.container {
+	max-width:1000px;  
+	margin:0 auto;
+	border:1px dotted #009
+}
+
+/*浮动元素*/
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+/*通用区域样式*/
+.commen {
+	float:left;
+	width:330px;
+	border:1px solid #E8E8E8;
+}
+.m02 { margin:0 2px;}
+.mt20 {	margin-top:20px;}
+.tall {height:320px;}	
+/******************************************************************
+    基准样式
+******************************************************************/
+
+
+/* header部分 */
+.top {
+	height:70px;
+	width:100%;
+}
+.top img {
+	float:left;
+}
+nav li {
+	float:left;
+	line-height:70px;	
+}
+nav a:link,
+nav a:visited {
+	color:#000;
+	text-decoration:none;	
+	display:block;
+	padding:0 25px;
+}
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav a.active {
+	background-color:#900;		
+}
+
+/*幻灯片部分*/
+.slide {
+	height:310px;
+	width:1000px;
+	overflow:hidden;
+}
+
+/*滚动新闻部分*/
+.scroll_news {
+	background-color:#333;
+	color:#FFF;
+	height:40px;
+	line-height:40px;
+	position:relative;
+}
+.scroll_news a:link,
+.scroll_news a:visited {
+	color:#000;
+	text-decoration:none;	
+	display:block;
+	padding:0 40px;	
+}
+.scroll_news a:focus,
+.scroll_news a:hover,
+.scroll_news a:active,
+.scroll_news a.active {
+	background-color:#900;	
+}
+
+/*课程部分*/	
+.course a:link,
+.course a:visited {
+	color:#000;
+	text-decoration:none;	
+	display:block;	
+	text-align:center;
+}
+.course a:focus,
+.course a:hover,
+.course a:active,
+.course a.active {
+	background-color:#900;	
+}
+/*主体部分*/
+main h2 {
+	color:#FFF;
+	height:40px;
+	background-color:#900;
+	line-height:40px;
+	padding-left:1em;
+}
+
+/*新闻中心*/	
+.news_content {
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+	font-size:14px;
+}
+.news_date {
+	margin: 10px 8px 0 -45px;
+	width:35px;
+	padding:5px;
+	border:1px solid #999;
+	float:left;
+	background-color:#900;
+	
+}
+.news_title	{
+	font-weight:bold;
+	margin-bottom:10px;	
+}
+.news_content p {
+	border-bottom:1px outset #E8E8E8;
+	padding-bottom:10px;
+}
+
+/*热门活动*/	
+.activity img {
+	width:290px;
+	height:150px;
+	margin:20px 20px 0 20px;
+}
+.activity p {
+	margin-left:20px;
+}
+
+/*联系我们*/
+.mt10 {
+	margin-top:10px;
+}
+.mt30 {
+	margin-top:30px;
+} 
+.contact p {
+	margin-left:10px;
+}
+/*foot部分*/
+.copyright {
+	height:40px;
+	background-color:#999;
+	margin-top:10px;	
+}
+.copyright p {
+	font-size:12px;
+	width:500px;/*字体水平居中*/
+	margin:0 auto;/*字体水平居中*/
+	padding-top:20px;/*字体规定垂直方向的距离*/	
+	
+}
+
+
+
+
+	

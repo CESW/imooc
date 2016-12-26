@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--初始化-->
+    <meta name="description" content="imooc"/>
+    <meta name="keywords" content="imooc"/>
+    <meta name="author" content="yl"/>
+    <title>imooc</title>
+    <link href="homePage.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_YSlider.js"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_YSlider.css"></script>	
+    <script type="text/javascript">
+		myFocus.set({id:"ppt"})
+	</script>
+</head>
+
+<body>
+
+<!--== 开始顶部 ==-->
+<div class="top">
+	<ul>
+    	<li><a href="/">联系我们</a></li>
+        <li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">添加收藏</a></li>
+        <li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+    </ul>
+</div>	
+<!--结束顶部-->
+<!-- ==外围容器开始== -->
+<div class="container">
+	<!--== 开始头部 ==-->
+	<header class="of">
+    	<!--== 开始logo区域 ==-->
+    	<div class="logo">
+   	    	<img class="logo_pic" src="images/logo.jpg" alt="慕课网">
+            <img class="tel" src="images/tel.jpg" alt="热线电话">
+            <p>24小时服务热线：<span>123-456-7890</span></p>
+        </div>
+        <!--结束logo-->
+   		<!--== 开始导航 ==-->
+        <div class="of nav">
+        	<ul>
+            	<li><a class="mf20" href="/" title="首页">首页</a></li>
+                <li><a href="/" title="关于慕课">关于慕课</a></li>
+                <li><a href="/" title="新闻动态">新闻动态</a></li>
+                <li><a href="/" title="课程中心">课程中心</a></li>
+                <li><a href="/" title="在线课程">在线课程</a></li>
+                <li><a href="/" title="人才招聘">人才招聘</a></li>
+            </ul>
+            <form method="post" action="/">
+            	<input type="text">
+            </form>
+        </div>
+        <!--结束导航-->
+    </header>
+    <!--结束头部-->
+    <!--== 开始幻灯片 ==-->
+	<section id="ppt" class="picBox of">
+    	<div class="loading"><img src="images/loading.gif" alt="正在加载中"></div>
+    	<div class="pic">
+        	<ul>
+                <li><img src="images/ad2.jpg" alt=""></li>
+                <li><img src="images/ad3.jpg" alt=""></li>
+                <li><img src="images/ad4.jpg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <!--结束幻灯片-->
+    <!--== 开始主题内容 ==-->
+    <main class="of">
+    	<!--== 开始新闻中心 ==-->
+  		<div class="news fl">
+        	<!--==新闻标题开始==-->
+        	<div class="title">
+                <h2>新闻中心</h2> 
+                <a class="more" href="/" title="more">more&gt;&gt;</a>
+            </div>
+            <!--新闻标题结束-->
+            <!--==新闻头条==-->
+            <div class="headline">
+                <img src="images/news.jpg">
+                <h3>520&nbsp;&nbsp;慕女神喊你来表白！</h3>
+                <p>
+                    活动时间：5月20号-5月25号<br/>
+                    获奖公布时间：5月26日<br/>
+                    <a href="/">Learn&nbsp;More&gt;&gt;</a>
+                </p>
+            </div>
+            <!--结束新闻头条-->
+            <!--==开始新闻内容==-->
+            <div class="content">
+            	<ul>
+                	<li><a href="/">【慕课访谈&nbsp;用户篇】“有为屌丝”在路上</a><span>06-01</span></li>
+                    <li><a href="/">【有奖活动】给父亲的三行书信</a><span>06-01</span></li>
+                    <li><a href="/">《程序猿，请晒出你的童年》活动获奖公告</a><span>05-30</span></li>
+                    <li><a href="/">【慕课访谈】破茧成蝶--美女程序员的蜕变史</a><span>05-28</span></li>
+                </ul>
+            </div>
+            <!--结束新闻内容-->
+        </div>
+        <!--结束新闻中心-->
+   		<!--== 开始课程中心 ==-->
+        <div class="course mfr7 fl">
+        	<!--==课程标题开始==-->
+        	<div class="title">
+                <h2>课程中心</h2> 
+                <a class="more" href="/" title="more">more&gt;&gt;</a>
+            </div>
+            <!--课程标题结束-->
+            <!--==课程头条==-->
+            <div class="headline">
+                <img src="images/css.jpg">
+                <h3>CSS圆角进化论</h3>
+                <p>CSS圆角的实现，经历了三大发展阶段：背景图片方式、CSS2.0+HTML标签模拟、CSS3.0圆角属性）。本案例详细讲解每一种的实现方式，并对实现的优缺点进行对比分析。</p>
+            </div>
+            <!--结束课程头条-->
+            <!--==开始课程类型==-->
+            <div class="course_type">
+            	<ul>
+                	<li><a href="/" title="PHP开发">PHP开发</a></li>
+                    <li><a href="/" title="前端开发">前端开发</a></li>
+                    <li><a href="/" title="JAVA开发">JAVA开发</a></li>
+                    <li><a href="/" title="Android开发">Android开发</a></li>
+                </ul>
+            </div>
+            <!--结束课程类型-->
+        </div>
+        <!--结束课程中心-->
+   		<!--== 开始媒体聚焦 ==-->
+        <div class="vedio">
+        	<!--==媒体聚焦标题开始==-->
+        	<div class="title">
+                <h2>媒体聚焦</h2> 
+                <a class="more" href="http://www.iqiyi.com/v_19rr9hh5eo.html#vfrm=3-2-bee-1" title="more">more&gt;&gt;</a>
+            </div>
+            <!--媒体聚焦标题结束-->
+            <!--==媒体内容开始==-->
+       	  	<embed src="http://player.video.qiyi.com/64a4da3e8a68642923a892275941d9cc/0/0/v_19rr9hh5eo.swf-albumId=541425100-tvId=541425100-isPurchase=0-cnId=31" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            <img src="../53bf7a220001620500000000/images/app.jpg" width="225" height="55">
+			<!--媒体内容结束-->
+        </div>
+        <!--结束媒体聚焦-->
+    </main>
+    <!--结束主题内容-->
+</div>
+<!--外围容器结束-->
+<!--== 开始页脚 ==-->
+<footer class="cl copyright">
+	<div class="container">
+    	<ul>
+        	<li>关于
+            	<ul>
+                	<li><a href="#">品牌故事</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">版权声明</a></li>
+                </ul>
+            </li>
+            <li>课程
+            	<ul>
+                	<li><a href="#">PHP开发</a></li>
+                    <li><a href="#">前端开发</a></li>
+                    <li><a href="#">JAVA开发</a></li>
+                    <li><a href="#">Android开发</a></li>
+                </ul>
+            </li>
+            <li>关注
+            	<ul>
+                	<li><a href="#">意见反馈</a></li>
+                    <li><a href="#">问题留言</a></li>
+                    <li><a href="#">媒体联络</a></li>
+                    <li><a href="#">在线客服</a></li>
+                </ul>
+            </li>
+            <li>留言
+            	<ul>
+                	<li><a href="#">新浪微博</a></li>
+                    <li><a href="#">腾讯微博</a></li>
+                    <li><a href="#">个人微信</a></li>
+                    <li><a href="#">QQ空间</a></li>
+                </ul>
+            </li>
+            <li><img src="images/weixin.png">微信关注
+            	<ul>
+                	<li><img src="images/qrcode.jpg"></li>
+            	</ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!--结束页脚-->
+<script type="text/javascript">
+//加入收藏
+
+function AddFavorite(sURL, sTitle)
+{
+    
+    sURL = encodeURI(sURL);
+    try
+    {
+        
+        window.external.addFavorite(sURL, sTitle);
+        
+    }
+    catch (e)
+    {
+        
+        try
+        {
+            
+            window.sidebar.addPanel(sTitle, sURL, "");
+            
+        }
+        catch (e)
+        {
+            
+            alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            
+        }
+        
+    }
+    
+}
+
+//设为首页
+
+function SetHome(url)
+{
+    
+    if (document.all)
+    {
+        
+        document.body.style.behavior = 'url(#default#homepage)';
+        
+        document.body.setHomePage(url);
+        
+    }
+    else
+    {
+        
+        alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        
+    }
+    
+}
+
+</script>
+</body>
+</html>
